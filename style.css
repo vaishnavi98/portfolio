@@ -8,7 +8,7 @@ body {
 
 /* Soft gradient background */
 .premium-bg {
-    background: linear-gradient(135deg, #f7f3fa, #fdf6f0);
+    background: none;
 }
 
 /* Background carousel */
