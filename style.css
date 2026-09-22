@@ -32,7 +32,6 @@ body {
 
 .premium-text {
     color: #7a6f8e;
-    text-align: justify;
 }
 
 /* Premium CTA button */
@@ -107,6 +106,7 @@ body {
 
 .justify-text {
     text-align: justify;
+    text-justify: inter-word;
 }
 
 @keyframes fadeIn {
