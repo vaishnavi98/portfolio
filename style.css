@@ -32,6 +32,7 @@ body {
 
 .premium-text {
     color: #7a6f8e;
+    text-align: justify;
 }
 
 /* Premium CTA button */
