@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Soft gradient background */
+.premium-bg {
+    background: linear-gradient(135deg, #f7f3fa, #fdf6f0);
+}
+
+/* Premium typography */
+.premium-title {
+    color: #6a4c93;
+}
+
+.premium-text {
+    color: #7a6f8e;
+}
+
+/* Premium CTA button */
+.premium-btn {
+    background-color: #f4c2c2;
+    color: #4a3f55;
+    border-radius: 25px;
+    padding: 10px 22px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.premium-btn:hover {
+    background-color: #f0b1b1;
+    transform: translateY(-3px);
+}
+
+/* Hero photo */
+.hero-photo-premium {
+    width: 320px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* Section titles */
+.section-title-premium {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #6a4c93;
+    margin-bottom: 20px;
+}
+
+/* Premium cards */
+.premium-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+    font-weight: 600;
+    color: #4a3f55;
+    transition: all 0.3s ease;
+}
+
+.premium-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* Timeline */
+.premium-timeline {
+    border-left: 3px solid #f4c2c2;
+    padding-left: 20px;
+}
+
+.timeline-item-premium {
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+/* Fade-in animations */
+.fade-in {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+}
+
+.fade-in-delayed {
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
