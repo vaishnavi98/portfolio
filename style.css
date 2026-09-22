@@ -104,6 +104,10 @@ body {
     opacity: 0;
 }
 
+.justify-text {
+    text-align: justify;
+}
+
 @keyframes fadeIn {
     to { opacity: 1; }
 }
